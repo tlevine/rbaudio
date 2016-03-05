@@ -1,3 +1,5 @@
+var baudio = require('webaudio')
+
 HTMLWidgets.widget({
   name: "webaudio",
   type: "output",
