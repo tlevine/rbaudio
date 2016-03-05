@@ -1,7 +1,4 @@
 dependencies:
   - name: webaudio
     version: 2.0.0
-    src: htmlwidgets/lib/bundle.js
-    script: 
-      - sigma.min.js
-      - plugins/sigma.parsers.gexf.min.js
+    script: htmlwidgets/lib/webaudio.js
