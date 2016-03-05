@@ -1,0 +1,16 @@
+{
+  "name": "rbaudio",
+  "version": "1.0.0",
+  "description": "R HTMLWidget for baudio",
+  "main": "b.js",
+  "dependencies": {
+    "baudio": "^2.1.2",
+    "browserify": "^13.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "AGPL"
+}
