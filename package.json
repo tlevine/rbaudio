@@ -1,8 +1,8 @@
 {
-  "name": "rbaudio",
+  "name": "rwebbaudio",
   "version": "1.0.0",
-  "description": "R HTMLWidget for baudio",
-  "main": "rbaudio.js",
+  "description": "Render an R HTMLWidget for webaudio",
+  "main": "rwebbaudio.js",
   "dependencies": {
     "webaudio": "^2.0.0",
     "browserify": "^13.0.0"
@@ -11,6 +11,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Thomas Levine <_@thomaslevine.com>",
   "license": "AGPL"
 }
