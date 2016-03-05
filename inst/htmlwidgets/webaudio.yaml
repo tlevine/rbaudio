@@ -1,5 +1,0 @@
-dependencies:
-  - name: webaudio
-    version: 2.0.0
-    src: "htmlwidgets/webaudio"
-    script: webaudio.js
