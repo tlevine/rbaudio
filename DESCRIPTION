@@ -1,0 +1,6 @@
+Package: webaudio
+Title: HTML Widget for webaudio Javascript library
+Version: 1.0.0
+Authors@R: person("Thomas", "Levine", email = "_@thomaslevine.com", role = c("aut", "cre"))
+Depends: R (>= 3.2.2)
+License: AGPL
