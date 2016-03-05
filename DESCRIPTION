@@ -1,6 +1,6 @@
 Package: webaudio
-Title: HTML Widget for webaudio Javascript library
+Title: Play sound with webaudio Javascript library
 Version: 2.0.0
 Authors@R: person("Thomas", "Levine", email = "_@thomaslevine.com", role = c("aut", "cre"))
-Depends: R (>= 3.2.2), htmlwidgets
+Depends: R (>= 3.2.2)
 License: AGPL

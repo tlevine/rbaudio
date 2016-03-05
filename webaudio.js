@@ -1,19 +1,10 @@
 var baudio = require('webaudio')
+var b = undefined
 
-HTMLWidgets.widget({
-  name: "webaudio",
-  type: "output",
-  factory: function(el, width, height) {
-    return {
-      renderValue: function(functionBody) {
-        self.music = Function('t', functionBody)
-        if (!('b' in self)) {
-          self.b = baudio(function (t) { return self.music(t, state) }),
-          self.b.play()
-        }
-      },
-      resize: function(width, height) {
-      },
-    }
+window.update = function(functionBody) {
+  music = Function('t', functionBody)
+  if (!('b' === undefined)) {
+    b = baudio(function (t) { return self.music(t, state) }),
+    b.play()
   }
-})
+}

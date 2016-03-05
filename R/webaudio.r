@@ -2,5 +2,5 @@
 #' @export
 webaudio <- function() {
   music <- 'return Math.sin(2 * Math.PI * t * 330)'
-  htmlwidgets::createWidget("webaudio", music)
+  system.file('inst', 'webaudio.js', package='webaudio')
 }
