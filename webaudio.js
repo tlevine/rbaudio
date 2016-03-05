@@ -1,10 +1,7 @@
 var baudio = require('webaudio')
-var b = undefined
 
-window.update = function(functionBody) {
+window.play = function(functionBody) {
   music = Function('t', functionBody)
-  if (!('b' === undefined)) {
-    b = baudio(function (t) { return self.music(t, state) }),
-    b.play()
-  }
+  b = baudio(function (t) { return music(t) }),
+  b.play()
 }
